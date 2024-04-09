@@ -1,0 +1,25 @@
+.honbun{
+    text-align: center;
+}
+
+body{
+   background-image:url("images/bg_Argyle.jpg");  
+}
+
+.curry{
+    text-align: center;
+    border: double 7px red;
+}
+
+table{
+    border-color: red;
+    background-color: lightyellow;
+}
+
+.zairyou{
+    color: red;
+}
+
+.yoko{
+    display: flex;
+}

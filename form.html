@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>質問・感想フォーム</title>
+<link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+    <h1>質問・感想フォーム</h1>
+
+    <form action="result.html">
+        <br>氏名</br>
+        <input type="text" name="name1">
+
+        <br>性別</br>
+        <label class="waku"><input type="radio" name="sei" value="male" checked>男</label>
+        <label class="waku"><input type="radio" name="sei" value="female">女</label>
+
+        <br>年齢</br>
+        <select name="年齢">
+            <option value="10" selected >10代</option>
+            <option value="20">20代</option>
+        </select>
+
+        <br>今後見てみたいレシピ</br>
+        <label class="waku"><input type="checkbox" name="wasyoku" value="wasyoku" checked>和食</label>
+        <label class="waku"><input type="checkbox" name="tyuuka" value="tyuuka" checked>中華</label>
+        <label class="waku"><input type="checkbox" name="yousyoku" value="yousyoku" checked>洋食</label>
+        <label class="waku"><input type="checkbox" name="itarian" value="itarian" checked>イタリアン</label>
+        <label class="waku"><input type="checkbox" name="sui-tu" value="sui-tu" checked>スイーツ</label>
+        <label class="waku"><input type="checkbox" name="sonota" value="sonota" checked>その他</label>
+
+        <br>自由コメント欄</br>
+        <textarea name="free" rows="4" cols="40" placeholder="自由に意見を記述してください"></textarea>
+
+        <br><button type="submit">送信</button>
+        <button type="reset">取り消す</button></br>
+
+
+      </form>
+
+</body>

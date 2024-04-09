@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(184, 244, 244);
+    text-align: center;
+}
+
+form{
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+p{
+    margin: 0;
+}
+
+.waku{
+    width: 700px;
+}
+
+.waku2{
+    width: 50px;
+}
+
+.hissu{
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
+
+h1{
+    font-size: 15px;
+    color: green;
+}
+
+.soto{
+    display: flex;
+}
+
+.a{
+    font-size: 10px;
+}
+
+hr{
+    color: blue;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>アンケート</title>
+<link rel="stylesheet" href="form2.css">
+</head>
+
+<body>
+
+<h1>アンケート</h1>
+
+<hr>
+
+<form action="result.html">
+   <p>AxiZの研修をご利用いただき、誠にありがとうございます。</p>
+   <p>以下の内容の記入及び送信をして頂けると幸いです。</p>
+
+   <br>
+   <div>
+      <div class="soto">
+         <p>会社名</p>
+         <p class="hissu">必須</p>
+      </div>
+      <input type="text" class="waku" name="name" required placeholder="例）株式会社テクノコア">
+   </div>
+   
+   <br>
+   <div>
+      <div class="soto">
+         <p>お名前</p>
+         <p class="hissu">必須</p>
+      </div>
+      <input type="text" class="waku" name="name" required placeholder="例）手久野　興亜">
+   </div>
+
+   <br>
+   <div>
+      <p>メールアドレス</p>
+      <input type="text" class="waku" name="name" placeholder="例）example@axiz.co.jp">
+   </div>
+
+   <br>
+   <div>
+      <p>年齢</p>
+      <input type="text" class="waku2" name="name" placeholder="23">
+   </div>
+
+   <br>
+   <div>
+      <p>受講コース</p>
+      <input type="radio" name="course" value="java" checked>Java
+      <input type="radio" name="course" value="infura" checked>インフラ
+   </div>
+
+   <br>
+   <div>
+      <p>会場</p>
+      <select class="waku" name="会場">
+         <option value="A" selected >日本橋A教室</option>
+         <option value="aquarium">水族館</option>
+         <option value="museum">博物館</option>
+      </select>
+   </div>
+
+   <br>
+   <div>
+      <p>詳しく学びたい内容（複数回答可）</p>
+      <div>
+         <input type="checkbox" name="manners" value="manners" checked>ビジネスマナー
+      </div>
+      <div>
+         <input type="checkbox" name="html/css" value="html/css" checked>HTML/CSS
+      </div>
+      <div>
+         <input type="checkbox" name="Javascript" value="Javascript" checked>Javascript
+      </div>
+      <div>
+         <input type="checkbox" name="java" value="java" checked>Java
+      </div>
+      <div>
+         <input type="checkbox" name="data" value="data" checked>データベース
+      </div>
+      <div>
+         <input type="checkbox" name="linax" value="linax" checked>Linax
+      </div>
+   </div>
+
+   <br>
+   <p>ご意見</p>
+   <textarea name="free" rows="6" cols="95" placeholder="自由にご記入ください。"></textarea>
+
+   <br><button type="submit">送信する</button>
+
+</form>
+
+<hr>
+
+<p class="a">Copyright(C)AxiZ</p>
+
+</body>
